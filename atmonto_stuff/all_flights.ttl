@@ -1,0 +1,1556 @@
+@prefix eqp: <https://data.nasa.gov/ontologies/atmonto/equipment#> .
+@prefix atm: <https://data.nasa.gov/ontologies/atmonto/ATM#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+atm:AAL100-201407150030 a atm:Flight;
+  rdfs:label "Flight AAL100 on 2014-07-15 00:30:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:46:47"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:30:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B77WAircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#EGLLairport>;
+  atm:callSign "AAL100";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteAAL100-201407150030;
+  atm:hasPlannedRoute atm:PlannedRouteAAL100-201407150030;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL1102-201407150046 a atm:Flight;
+  rdfs:label "Flight AAL1102 on 2014-07-15 00:46:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:13:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:46:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN963AN;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMIAairport>;
+  atm:callSign "AAL1102";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteAAL1102-201407150046;
+  atm:hasPlannedRoute atm:PlannedRouteAAL1102-201407150046;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL1144-201407150040 a atm:Flight;
+  rdfs:label "Flight AAL1144 on 2014-07-15 00:40:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T04:01:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:40:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN942NN;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KDFWairport>;
+  atm:callSign "AAL1144";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteAAL1144-201407150040;
+  atm:hasPlannedRoute atm:PlannedRouteAAL1144-201407150040;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL1170-201407150053 a atm:Flight;
+  rdfs:label "Flight AAL1170 on 2014-07-15 00:53:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:37:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:53:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN871NN;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "AAL1170";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KDFWairport>;
+  atm:hasActualRoute atm:ActualRouteAAL1170-201407150053;
+  atm:hasPlannedRoute atm:PlannedRouteAAL1170-201407150053;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL20-201407152358 a atm:Flight;
+  rdfs:label "Flight AAL20 on 2014-07-15 23:58:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140716>;
+  atm:actualArrivalTime "2014-07-16T04:54:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T23:58:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN784AA;
+  atm:aircraftTypeFlown eqp:A321AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "AAL20";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSFOairport>;
+  atm:hasActualRoute atm:ActualRouteAAL20-201407152358;
+  atm:hasPlannedRoute atm:PlannedRouteAAL20-201407152358;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL2248-201407150023 a atm:Flight;
+  rdfs:label "Flight AAL2248 on 2014-07-15 00:23:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:40:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:23:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN826NN;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "AAL2248";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMIAairport>;
+  atm:hasActualRoute atm:ActualRouteAAL2248-201407150023;
+  atm:hasPlannedRoute atm:PlannedRouteAAL2248-201407150023;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL2262-201407150038 a atm:Flight;
+  rdfs:label "Flight AAL2262 on 2014-07-15 00:38:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:16:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:38:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B752AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "AAL2262";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMIAairport>;
+  atm:hasActualRoute atm:ActualRouteAAL2262-201407150038;
+  atm:hasPlannedRoute atm:PlannedRouteAAL2262-201407150038;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL2285-201407150041 a atm:Flight;
+  rdfs:label "Flight AAL2285 on 2014-07-15 00:41:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:41:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:41:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B752AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "AAL2285";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMCOairport>;
+  atm:hasActualRoute atm:ActualRouteAAL2285-201407150041;
+  atm:hasPlannedRoute atm:PlannedRouteAAL2285-201407150041;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL291-201407150013 a atm:Flight;
+  rdfs:label "Flight AAL291 on 2014-07-15 00:13:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:44:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:13:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN879NN;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KAUSairport>;
+  atm:callSign "AAL291";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteAAL291-201407150013;
+  atm:hasPlannedRoute atm:PlannedRouteAAL291-201407150013;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL352-201407150023 a atm:Flight;
+  rdfs:label "Flight AAL352 on 2014-07-15 00:23:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:00:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:23:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN933AN;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "AAL352";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport>;
+  atm:hasActualRoute atm:ActualRouteAAL352-201407150023;
+  atm:hasPlannedRoute atm:PlannedRouteAAL352-201407150023;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:AAL355-201407150017 a atm:Flight;
+  rdfs:label "Flight AAL355 on 2014-07-15 00:17:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:14:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:17:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN816NN;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport>;
+  atm:callSign "AAL355";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteAAL355-201407150017;
+  atm:hasPlannedRoute atm:PlannedRouteAAL355-201407150017;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AALairline> .
+
+atm:ACA548-201407152359 a atm:Flight;
+  rdfs:label "Flight ACA548 on 2014-07-15 23:59:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140716>;
+  atm:actualArrivalTime "2014-07-16T04:53:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T23:59:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "ACA548";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYVRairport>;
+  atm:hasActualRoute atm:ActualRouteACA548-201407152359;
+  atm:hasPlannedRoute atm:PlannedRouteACA548-201407152359;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ACAairline> .
+
+atm:ACA722-201407150025 a atm:Flight;
+  rdfs:label "Flight ACA722 on 2014-07-15 00:25:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:19:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:25:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "ACA722";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYYZairport>;
+  atm:hasActualRoute atm:ActualRouteACA722-201407150025;
+  atm:hasPlannedRoute atm:PlannedRouteACA722-201407150025;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ACAairline> .
+
+atm:ACA723-201407150033 a atm:Flight;
+  rdfs:label "Flight ACA723 on 2014-07-15 00:33:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:39:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:33:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E190AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYYZairport>;
+  atm:callSign "ACA723";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteACA723-201407150033;
+  atm:hasPlannedRoute atm:PlannedRouteACA723-201407150033;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ACAairline> .
+
+atm:AFL103-201407150045 a atm:Flight;
+  rdfs:label "Flight AFL103 on 2014-07-15 00:45:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T04:08:16"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:45:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B77WAircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#UUEEairport>;
+  atm:callSign "AFL103";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteAFL103-201407150045;
+  atm:hasPlannedRoute atm:PlannedRouteAFL103-201407150045;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AFLairline> .
+
+atm:ASA14-201407150005 a atm:Flight;
+  rdfs:label "Flight ASA14 on 2014-07-15 00:05:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T04:49:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:05:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN413AS;
+  atm:aircraftTypeFlown eqp:B739AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "ASA14";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSEAairport>;
+  atm:hasActualRoute atm:ActualRouteASA14-201407150005;
+  atm:hasPlannedRoute atm:PlannedRouteASA14-201407150005;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ASAairline> .
+
+atm:ASQ3831-201407150019 a atm:Flight;
+  rdfs:label "Flight ASQ3831 on 2014-07-15 00:19:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:22:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:19:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "ASQ3831";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYYZairport>;
+  atm:hasActualRoute atm:ActualRouteASQ3831-201407150019;
+  atm:hasPlannedRoute atm:PlannedRouteASQ3831-201407150019;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ASQairline> .
+
+atm:ASQ4423-201407150037 a atm:Flight;
+  rdfs:label "Flight ASQ4423 on 2014-07-15 00:37:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:33:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:37:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN11548;
+  atm:aircraftTypeFlown eqp:E145AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "ASQ4423";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMHTairport>;
+  atm:hasActualRoute atm:ActualRouteASQ4423-201407150037;
+  atm:hasPlannedRoute atm:PlannedRouteASQ4423-201407150037;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ASQairline> .
+
+atm:ASQ4444-201407150037 a atm:Flight;
+  rdfs:label "Flight ASQ4444 on 2014-07-15 00:37:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:37:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:37:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "ASQ4444";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYULairport>;
+  atm:hasActualRoute atm:ActualRouteASQ4444-201407150037;
+  atm:hasPlannedRoute atm:PlannedRouteASQ4444-201407150037;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ASQairline> .
+
+atm:ASQ4509-201407150039 a atm:Flight;
+  rdfs:label "Flight ASQ4509 on 2014-07-15 00:39:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:19:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:39:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN26549;
+  atm:aircraftTypeFlown eqp:E145AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "ASQ4509";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMKEairport>;
+  atm:hasActualRoute atm:ActualRouteASQ4509-201407150039;
+  atm:hasPlannedRoute atm:PlannedRouteASQ4509-201407150039;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ASQairline> .
+
+atm:ASQ4596-201407150016 a atm:Flight;
+  rdfs:label "Flight ASQ4596 on 2014-07-15 00:16:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:07:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:16:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN16112;
+  atm:aircraftTypeFlown eqp:E45XAircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "ASQ4596";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSTLairport>;
+  atm:hasActualRoute atm:ActualRouteASQ4596-201407150016;
+  atm:hasPlannedRoute atm:PlannedRouteASQ4596-201407150016;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ASQairline> .
+
+atm:ASQ4597-201407150019 a atm:Flight;
+  rdfs:label "Flight ASQ4597 on 2014-07-15 00:19:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:11:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:19:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "ASQ4597";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYHZairport>;
+  atm:hasActualRoute atm:ActualRouteASQ4597-201407150019;
+  atm:hasPlannedRoute atm:PlannedRouteASQ4597-201407150019;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ASQairline> .
+
+atm:ASQ4994-201407150037 a atm:Flight;
+  rdfs:label "Flight ASQ4994 on 2014-07-15 00:37:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:28:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:37:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN605QX;
+  atm:aircraftTypeFlown eqp:CRJ7AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "ASQ4994";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KBTVairport>;
+  atm:hasActualRoute atm:ActualRouteASQ4994-201407150037;
+  atm:hasPlannedRoute atm:PlannedRouteASQ4994-201407150037;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ASQairline> .
+
+atm:ASQ5600-201407150035 a atm:Flight;
+  rdfs:label "Flight ASQ5600 on 2014-07-15 00:35:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:32:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:35:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "ASQ5600";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYULairport>;
+  atm:hasActualRoute atm:ActualRouteASQ5600-201407150035;
+  atm:hasPlannedRoute atm:PlannedRouteASQ5600-201407150035;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ASQairline> .
+
+atm:AUA90-201407150040 a atm:Flight;
+  rdfs:label "Flight AUA90 on 2014-07-15 00:40:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:09:34"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:40:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B763AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#LOWWairport>;
+  atm:callSign "AUA90";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteAUA90-201407150040;
+  atm:hasPlannedRoute atm:PlannedRouteAUA90-201407150040;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AUAairline> .
+
+atm:AWE1976-201407150047 a atm:Flight;
+  rdfs:label "Flight AWE1976 on 2014-07-15 00:47:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:56:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:47:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN546UW;
+  atm:aircraftTypeFlown eqp:A321AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "AWE1976";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KCLTairport>;
+  atm:hasActualRoute atm:ActualRouteAWE1976-201407150047;
+  atm:hasPlannedRoute atm:PlannedRouteAWE1976-201407150047;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AWEairline> .
+
+atm:AWE2161-201407150023 a atm:Flight;
+  rdfs:label "Flight AWE2161 on 2014-07-15 00:23:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:13:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:23:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN958UW;
+  atm:aircraftTypeFlown eqp:E190AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "AWE2161";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KBOSairport>;
+  atm:hasActualRoute atm:ActualRouteAWE2161-201407150023;
+  atm:hasPlannedRoute atm:PlannedRouteAWE2161-201407150023;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AWEairline> .
+
+atm:AZA603-201407150001 a atm:Flight;
+  rdfs:label "Flight AZA603 on 2014-07-15 00:01:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:30:48"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:01:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:A332AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#LIRFairport>;
+  atm:callSign "AZA603";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteAZA603-201407150001;
+  atm:hasPlannedRoute atm:PlannedRouteAZA603-201407150001;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#AZAairline> .
+
+atm:CHQ2945-201407150047 a atm:Flight;
+  rdfs:label "Flight CHQ2945 on 2014-07-15 00:47:00";
+  atm:userCategory "AIR TAXI";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:27:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:47:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E145AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KCLTairport>;
+  atm:callSign "CHQ2945";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteCHQ2945-201407150047;
+  atm:hasPlannedRoute atm:PlannedRouteCHQ2945-201407150047;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#CHQairline> .
+
+atm:CPZ5839-201407150054 a atm:Flight;
+  rdfs:label "Flight CPZ5839 on 2014-07-15 00:54:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T04:21:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:54:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E170AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KIAHairport>;
+  atm:callSign "CPZ5839";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteCPZ5839-201407150054;
+  atm:hasPlannedRoute atm:PlannedRouteCPZ5839-201407150054;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#CPZairline> .
+
+atm:DAL1514-201407150041 a atm:Flight;
+  rdfs:label "Flight DAL1514 on 2014-07-15 00:41:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:04:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:41:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN317NB;
+  atm:aircraftTypeFlown eqp:A319AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "DAL1514";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KFLLairport>;
+  atm:hasActualRoute atm:ActualRouteDAL1514-201407150041;
+  atm:hasPlannedRoute atm:PlannedRouteDAL1514-201407150041;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL1776-201407150046 a atm:Flight;
+  rdfs:label "Flight DAL1776 on 2014-07-15 00:46:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:03:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:46:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN323NB;
+  atm:aircraftTypeFlown eqp:A319AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "DAL1776";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMCOairport>;
+  atm:hasActualRoute atm:ActualRouteDAL1776-201407150046;
+  atm:hasPlannedRoute atm:PlannedRouteDAL1776-201407150046;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL1878-201407150030 a atm:Flight;
+  rdfs:label "Flight DAL1878 on 2014-07-15 00:30:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:16:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:30:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN994AT;
+  atm:aircraftTypeFlown eqp:B712AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "DAL1878";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KATLairport>;
+  atm:hasActualRoute atm:ActualRouteDAL1878-201407150030;
+  atm:hasPlannedRoute atm:PlannedRouteDAL1878-201407150030;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL1902-201407150041 a atm:Flight;
+  rdfs:label "Flight DAL1902 on 2014-07-15 00:41:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:59:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:41:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN333NB;
+  atm:aircraftTypeFlown eqp:A319AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "DAL1902";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KPBIairport>;
+  atm:hasActualRoute atm:ActualRouteDAL1902-201407150041;
+  atm:hasPlannedRoute atm:PlannedRouteDAL1902-201407150041;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL1923-201407150020 a atm:Flight;
+  rdfs:label "Flight DAL1923 on 2014-07-15 00:20:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:34:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:20:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN904DE;
+  atm:aircraftTypeFlown eqp:MD88AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "DAL1923";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMIAairport>;
+  atm:hasActualRoute atm:ActualRouteDAL1923-201407150020;
+  atm:hasPlannedRoute atm:PlannedRouteDAL1923-201407150020;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL2019-201407150029 a atm:Flight;
+  rdfs:label "Flight DAL2019 on 2014-07-15 00:29:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:56:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:29:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN913DL;
+  atm:aircraftTypeFlown eqp:MD88AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMSPairport>;
+  atm:callSign "DAL2019";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteDAL2019-201407150029;
+  atm:hasPlannedRoute atm:PlannedRouteDAL2019-201407150029;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL2057-201407150009 a atm:Flight;
+  rdfs:label "Flight DAL2057 on 2014-07-15 00:09:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:13:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:09:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN917DL;
+  atm:aircraftTypeFlown eqp:MD88AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KATLairport>;
+  atm:callSign "DAL2057";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteDAL2057-201407150009;
+  atm:hasPlannedRoute atm:PlannedRouteDAL2057-201407150009;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL210-201407150023 a atm:Flight;
+  rdfs:label "Flight DAL210 on 2014-07-15 00:23:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:45:49"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:23:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B763AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#LKPRairport>;
+  atm:callSign "DAL210";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteDAL210-201407150023;
+  atm:hasPlannedRoute atm:PlannedRouteDAL210-201407150023;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL2139-201407150002 a atm:Flight;
+  rdfs:label "Flight DAL2139 on 2014-07-15 00:02:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:34:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:02:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN312US;
+  atm:aircraftTypeFlown eqp:A320AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMIAairport>;
+  atm:callSign "DAL2139";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteDAL2139-201407150002;
+  atm:hasPlannedRoute atm:PlannedRouteDAL2139-201407150002;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL2296-201407150043 a atm:Flight;
+  rdfs:label "Flight DAL2296 on 2014-07-15 00:43:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:55:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:43:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN374NW;
+  atm:aircraftTypeFlown eqp:A320AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "DAL2296";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMSPairport>;
+  atm:hasActualRoute atm:ActualRouteDAL2296-201407150043;
+  atm:hasPlannedRoute atm:PlannedRouteDAL2296-201407150043;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL2444-201407150045 a atm:Flight;
+  rdfs:label "Flight DAL2444 on 2014-07-15 00:45:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:41:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:45:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "DAL2444";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KORFairport>;
+  atm:hasActualRoute atm:ActualRouteDAL2444-201407150045;
+  atm:hasPlannedRoute atm:PlannedRouteDAL2444-201407150045;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL2499-201407150032 a atm:Flight;
+  rdfs:label "Flight DAL2499 on 2014-07-15 00:32:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:37:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:32:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN354NB;
+  atm:aircraftTypeFlown eqp:A319AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "DAL2499";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KTPAairport>;
+  atm:hasActualRoute atm:ActualRouteDAL2499-201407150032;
+  atm:hasPlannedRoute atm:PlannedRouteDAL2499-201407150032;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL2616-201407150033 a atm:Flight;
+  rdfs:label "Flight DAL2616 on 2014-07-15 00:33:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T06:10:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:33:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN389DA;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSANairport>;
+  atm:callSign "DAL2616";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteDAL2616-201407150033;
+  atm:hasPlannedRoute atm:PlannedRouteDAL2616-201407150033;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL403A-201407152359 a atm:Flight;
+  rdfs:label "Flight DAL403A on 2014-07-15 23:59:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140716>;
+  atm:actualArrivalTime "2014-07-16T04:46:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T23:59:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B752AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "DAL403A";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KPDXairport>;
+  atm:hasActualRoute atm:ActualRouteDAL403A-201407152359;
+  atm:hasPlannedRoute atm:PlannedRouteDAL403A-201407152359;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL435-201407150039 a atm:Flight;
+  rdfs:label "Flight DAL435 on 2014-07-15 00:39:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T06:54:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:39:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN713TW;
+  atm:aircraftTypeFlown eqp:B752AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSFOairport>;
+  atm:callSign "DAL435";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteDAL435-201407150039;
+  atm:hasPlannedRoute atm:PlannedRouteDAL435-201407150039;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL495-201407150042 a atm:Flight;
+  rdfs:label "Flight DAL495 on 2014-07-15 00:42:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:37:02"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:42:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#MDSDairport>;
+  atm:callSign "DAL495";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteDAL495-201407150042;
+  atm:hasPlannedRoute atm:PlannedRouteDAL495-201407150042;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:DAL858-201407150055 a atm:Flight;
+  rdfs:label "Flight DAL858 on 2014-07-15 00:55:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:52:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:55:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN822DN;
+  atm:aircraftTypeFlown eqp:B739AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KATLairport>;
+  atm:callSign "DAL858";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteDAL858-201407150055;
+  atm:hasPlannedRoute atm:PlannedRouteDAL858-201407150055;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#DALairline> .
+
+atm:ENY2839-201407150050 a atm:Flight;
+  rdfs:label "Flight ENY2839 on 2014-07-15 00:50:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:07:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:50:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN527MQ;
+  atm:aircraftTypeFlown eqp:CRJ7AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSTLairport>;
+  atm:callSign "ENY2839";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteENY2839-201407150050;
+  atm:hasPlannedRoute atm:PlannedRouteENY2839-201407150050;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ENYairline> .
+
+atm:ENY2840-201407150029 a atm:Flight;
+  rdfs:label "Flight ENY2840 on 2014-07-15 00:29:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:40:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:29:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN502MQ;
+  atm:aircraftTypeFlown eqp:CRJ7AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "ENY2840";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSTLairport>;
+  atm:hasActualRoute atm:ActualRouteENY2840-201407150029;
+  atm:hasPlannedRoute atm:PlannedRouteENY2840-201407150029;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ENYairline> .
+
+atm:ENY3349-201407150049 a atm:Flight;
+  rdfs:label "Flight ENY3349 on 2014-07-15 00:49:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:28:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:49:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN525MQ;
+  atm:aircraftTypeFlown eqp:CRJ7AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLITairport>;
+  atm:callSign "ENY3349";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteENY3349-201407150049;
+  atm:hasPlannedRoute atm:PlannedRouteENY3349-201407150049;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#ENYairline> .
+
+atm:GEC8171-201407150048 a atm:Flight;
+  rdfs:label "Flight GEC8171 on 2014-07-15 00:48:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:19:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:48:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B77LAircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "GEC8171";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KATLairport>;
+  atm:hasActualRoute atm:ActualRouteGEC8171-201407150048;
+  atm:hasPlannedRoute atm:PlannedRouteGEC8171-201407150048;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#GECairline> .
+
+atm:GJS6196-201407150053 a atm:Flight;
+  rdfs:label "Flight GJS6196 on 2014-07-15 00:53:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:46:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:53:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:CRJ7AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "GJS6196";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KBUFairport>;
+  atm:hasActualRoute atm:ActualRouteGJS6196-201407150053;
+  atm:hasPlannedRoute atm:PlannedRouteGJS6196-201407150053;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#GJSairline> .
+
+atm:GJS6284-201407150046 a atm:Flight;
+  rdfs:label "Flight GJS6284 on 2014-07-15 00:46:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:45:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:46:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:CRJ7AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "GJS6284";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSTLairport>;
+  atm:hasActualRoute atm:ActualRouteGJS6284-201407150046;
+  atm:hasPlannedRoute atm:PlannedRouteGJS6284-201407150046;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#GJSairline> .
+
+atm:JBU1013-201407150026 a atm:Flight;
+  rdfs:label "Flight JBU1013 on 2014-07-15 00:26:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T06:12:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:26:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN565JB;
+  atm:aircraftTypeFlown eqp:A320AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGBairport>;
+  atm:callSign "JBU1013";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteJBU1013-201407150026;
+  atm:hasPlannedRoute atm:PlannedRouteJBU1013-201407150026;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#JBUairline> .
+
+atm:JBU1042-201407150049 a atm:Flight;
+  rdfs:label "Flight JBU1042 on 2014-07-15 00:49:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:20:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:49:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN652JB;
+  atm:aircraftTypeFlown eqp:A320AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "JBU1042";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSAVairport>;
+  atm:hasActualRoute atm:ActualRouteJBU1042-201407150049;
+  atm:hasPlannedRoute atm:PlannedRouteJBU1042-201407150049;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#JBUairline> .
+
+atm:JBU576-201407150034 a atm:Flight;
+  rdfs:label "Flight JBU576 on 2014-07-15 00:34:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:27:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:34:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E190AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "JBU576";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMSYairport>;
+  atm:hasActualRoute atm:ActualRouteJBU576-201407150034;
+  atm:hasPlannedRoute atm:PlannedRouteJBU576-201407150034;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#JBUairline> .
+
+atm:JBU582-201407150007 a atm:Flight;
+  rdfs:label "Flight JBU582 on 2014-07-15 00:07:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:17:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:07:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E190AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "JBU582";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KHOUairport>;
+  atm:hasActualRoute atm:ActualRouteJBU582-201407150007;
+  atm:hasPlannedRoute atm:PlannedRouteJBU582-201407150007;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#JBUairline> .
+
+atm:JBU936-201407150042 a atm:Flight;
+  rdfs:label "Flight JBU936 on 2014-07-15 00:42:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:41:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:42:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:A320AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "JBU936";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#MDSTairport>;
+  atm:hasActualRoute atm:ActualRouteJBU936-201407150042;
+  atm:hasPlannedRoute atm:PlannedRouteJBU936-201407150042;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#JBUairline> .
+
+atm:NKS174-201407150027 a atm:Flight;
+  rdfs:label "Flight NKS174 on 2014-07-15 00:27:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:06:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:27:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:A320AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "NKS174";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KFLLairport>;
+  atm:hasActualRoute atm:ActualRouteNKS174-201407150027;
+  atm:hasPlannedRoute atm:PlannedRouteNKS174-201407150027;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#NKSairline> .
+
+atm:POE139-201407150012 a atm:Flight;
+  rdfs:label "Flight POE139 on 2014-07-15 00:12:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:19:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:12:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "POE139";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYTZairport>;
+  atm:hasActualRoute atm:ActualRoutePOE139-201407150012;
+  atm:hasPlannedRoute atm:PlannedRoutePOE139-201407150012;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#POEairline> .
+
+atm:POE141-201407150016 a atm:Flight;
+  rdfs:label "Flight POE141 on 2014-07-15 00:16:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:25:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:16:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "POE141";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYTZairport>;
+  atm:hasActualRoute atm:ActualRoutePOE141-201407150016;
+  atm:hasPlannedRoute atm:PlannedRoutePOE141-201407150016;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#POEairline> .
+
+atm:QFA108-201407150005 a atm:Flight;
+  rdfs:label "Flight QFA108 on 2014-07-15 00:05:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T05:21:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:05:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B744AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLAXairport>;
+  atm:callSign "QFA108";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteQFA108-201407150005;
+  atm:hasPlannedRoute atm:PlannedRouteQFA108-201407150005;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#QFAairline> .
+
+atm:SCX247-201407150046 a atm:Flight;
+  rdfs:label "Flight SCX247 on 2014-07-15 00:46:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:39:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:46:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:callSign "SCX247";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMSPairport>;
+  atm:hasActualRoute atm:ActualRouteSCX247-201407150046;
+  atm:hasPlannedRoute atm:PlannedRouteSCX247-201407150046;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#SCXairline> .
+
+atm:SKV7476-201407150003 a atm:Flight;
+  rdfs:label "Flight SKV7476 on 2014-07-15 00:03:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:06:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:03:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "SKV7476";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYYZairport>;
+  atm:hasActualRoute atm:ActualRouteSKV7476-201407150003;
+  atm:hasPlannedRoute atm:PlannedRouteSKV7476-201407150003;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#SKVairline> .
+
+atm:SWA1945-201407150025 a atm:Flight;
+  rdfs:label "Flight SWA1945 on 2014-07-15 00:25:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:03:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:25:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN740SW;
+  atm:aircraftTypeFlown eqp:B737AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "SWA1945";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMDWairport>;
+  atm:hasActualRoute atm:ActualRouteSWA1945-201407150025;
+  atm:hasPlannedRoute atm:PlannedRouteSWA1945-201407150025;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#SWAairline> .
+
+atm:SWA2219-201407150030 a atm:Flight;
+  rdfs:label "Flight SWA2219 on 2014-07-15 00:30:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:26:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:30:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN706SW;
+  atm:aircraftTypeFlown eqp:B737AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "SWA2219";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KDENairport>;
+  atm:hasActualRoute atm:ActualRouteSWA2219-201407150030;
+  atm:hasPlannedRoute atm:PlannedRouteSWA2219-201407150030;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#SWAairline> .
+
+atm:SWA271-201407150026 a atm:Flight;
+  rdfs:label "Flight SWA271 on 2014-07-15 00:26:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:47:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:26:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN765SW;
+  atm:aircraftTypeFlown eqp:B737AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KHOUairport>;
+  atm:callSign "SWA271";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteSWA271-201407150026;
+  atm:hasPlannedRoute atm:PlannedRouteSWA271-201407150026;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#SWAairline> .
+
+atm:SWA3345-201407150042 a atm:Flight;
+  rdfs:label "Flight SWA3345 on 2014-07-15 00:42:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:57:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:42:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN931WN;
+  atm:aircraftTypeFlown eqp:B737AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSTLairport>;
+  atm:callSign "SWA3345";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteSWA3345-201407150042;
+  atm:hasPlannedRoute atm:PlannedRouteSWA3345-201407150042;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#SWAairline> .
+
+atm:SWA3784-201407150009 a atm:Flight;
+  rdfs:label "Flight SWA3784 on 2014-07-15 00:09:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:08:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:09:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN962WN;
+  atm:aircraftTypeFlown eqp:B737AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "SWA3784";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSTLairport>;
+  atm:hasActualRoute atm:ActualRouteSWA3784-201407150009;
+  atm:hasPlannedRoute atm:PlannedRouteSWA3784-201407150009;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#SWAairline> .
+
+atm:SWA4361-201407150043 a atm:Flight;
+  rdfs:label "Flight SWA4361 on 2014-07-15 00:43:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:03:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:43:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B737AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "SWA4361";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KALBairport>;
+  atm:hasActualRoute atm:ActualRouteSWA4361-201407150043;
+  atm:hasPlannedRoute atm:PlannedRouteSWA4361-201407150043;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#SWAairline> .
+
+atm:TAM8081-201407150029 a atm:Flight;
+  rdfs:label "Flight TAM8081 on 2014-07-15 00:29:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T04:03:54"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:29:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:A332AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#SBGRairport>;
+  atm:callSign "TAM8081";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteTAM8081-201407150029;
+  atm:hasPlannedRoute atm:PlannedRouteTAM8081-201407150029;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#TAMairline> .
+
+atm:TCF3456-201407150029 a atm:Flight;
+  rdfs:label "Flight TCF3456 on 2014-07-15 00:29:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:54:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:29:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E170AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KMSPairport>;
+  atm:callSign "TCF3456";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteTCF3456-201407150029;
+  atm:hasPlannedRoute atm:PlannedRouteTCF3456-201407150029;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#TCFairline> .
+
+atm:TCF5954-201407150049 a atm:Flight;
+  rdfs:label "Flight TCF5954 on 2014-07-15 00:49:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:32:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:49:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E170AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "TCF5954";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport>;
+  atm:hasActualRoute atm:ActualRouteTCF5954-201407150049;
+  atm:hasPlannedRoute atm:PlannedRouteTCF5954-201407150049;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#TCFairline> .
+
+atm:TCF5955-201407150025 a atm:Flight;
+  rdfs:label "Flight TCF5955 on 2014-07-15 00:25:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:26:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:25:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E170AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport>;
+  atm:callSign "TCF5955";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteTCF5955-201407150025;
+  atm:hasPlannedRoute atm:PlannedRouteTCF5955-201407150025;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#TCFairline> .
+
+atm:TCF5956-201407150053 a atm:Flight;
+  rdfs:label "Flight TCF5956 on 2014-07-15 00:53:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:38:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:53:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E170AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "TCF5956";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport>;
+  atm:hasActualRoute atm:ActualRouteTCF5956-201407150053;
+  atm:hasPlannedRoute atm:PlannedRouteTCF5956-201407150053;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#TCFairline> .
+
+atm:TCF5991-201407150031 a atm:Flight;
+  rdfs:label "Flight TCF5991 on 2014-07-15 00:31:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:14:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:31:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E170AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KINDairport>;
+  atm:callSign "TCF5991";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteTCF5991-201407150031;
+  atm:hasPlannedRoute atm:PlannedRouteTCF5991-201407150031;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#TCFairline> .
+
+atm:TCF7326-201407150033 a atm:Flight;
+  rdfs:label "Flight TCF7326 on 2014-07-15 00:33:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T04:06:01"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:33:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E170AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "TCF7326";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KIAHairport>;
+  atm:hasActualRoute atm:ActualRouteTCF7326-201407150033;
+  atm:hasPlannedRoute atm:PlannedRouteTCF7326-201407150033;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#TCFairline> .
+
+atm:TCF7328-201407150020 a atm:Flight;
+  rdfs:label "Flight TCF7328 on 2014-07-15 00:20:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:46:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:20:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:E170AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KCMHairport>;
+  atm:callSign "TCF7328";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteTCF7328-201407150020;
+  atm:hasPlannedRoute atm:PlannedRouteTCF7328-201407150020;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#TCFairline> .
+
+atm:THY2-201407150036 a atm:Flight;
+  rdfs:label "Flight THY2 on 2014-07-15 00:36:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:00:55"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:36:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B77WAircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#LTBAairport>;
+  atm:callSign "THY2";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteTHY2-201407150036;
+  atm:hasPlannedRoute atm:PlannedRouteTHY2-201407150036;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#THYairline> .
+
+atm:UAL1047-201407150038 a atm:Flight;
+  rdfs:label "Flight UAL1047 on 2014-07-15 00:38:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T06:27:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:38:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN38417;
+  atm:aircraftTypeFlown eqp:B739AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSFOairport>;
+  atm:callSign "UAL1047";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1047-201407150038;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1047-201407150038;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1064-201407150031 a atm:Flight;
+  rdfs:label "Flight UAL1064 on 2014-07-15 00:31:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:45:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:31:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN68801;
+  atm:aircraftTypeFlown eqp:B739AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KIAHairport>;
+  atm:callSign "UAL1064";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1064-201407150031;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1064-201407150031;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1075-201407150026 a atm:Flight;
+  rdfs:label "Flight UAL1075 on 2014-07-15 00:26:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T05:48:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:26:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN24702;
+  atm:aircraftTypeFlown eqp:B737AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSNAairport>;
+  atm:callSign "UAL1075";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1075-201407150026;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1075-201407150026;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1127-201407150054 a atm:Flight;
+  rdfs:label "Flight UAL1127 on 2014-07-15 00:54:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T06:34:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:54:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN63820;
+  atm:aircraftTypeFlown eqp:B739AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSFOairport>;
+  atm:callSign "UAL1127";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1127-201407150054;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1127-201407150054;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1128-201407150035 a atm:Flight;
+  rdfs:label "Flight UAL1128 on 2014-07-15 00:35:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:51:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:35:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN16234;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KIAHairport>;
+  atm:callSign "UAL1128";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1128-201407150035;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1128-201407150035;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1151-201407150044 a atm:Flight;
+  rdfs:label "Flight UAL1151 on 2014-07-15 00:44:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T05:57:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:44:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN12238;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSEAairport>;
+  atm:callSign "UAL1151";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1151-201407150044;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1151-201407150044;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1195-201407150036 a atm:Flight;
+  rdfs:label "Flight UAL1195 on 2014-07-15 00:36:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:42:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:36:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN37273;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KCLEairport>;
+  atm:callSign "UAL1195";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1195-201407150036;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1195-201407150036;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1241-201407150054 a atm:Flight;
+  rdfs:label "Flight UAL1241 on 2014-07-15 00:54:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T05:47:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:54:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN78438;
+  atm:aircraftTypeFlown eqp:B739AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "UAL1241";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSFOairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1241-201407150054;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1241-201407150054;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1460-201407150007 a atm:Flight;
+  rdfs:label "Flight UAL1460 on 2014-07-15 00:07:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:49:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:07:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN27733;
+  atm:aircraftTypeFlown eqp:B737AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "UAL1460";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1460-201407150007;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1460-201407150007;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1479-201407150023 a atm:Flight;
+  rdfs:label "Flight UAL1479 on 2014-07-15 00:23:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T05:59:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:23:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN79279;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLAXairport>;
+  atm:callSign "UAL1479";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1479-201407150023;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1479-201407150023;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1481-201407150048 a atm:Flight;
+  rdfs:label "Flight UAL1481 on 2014-07-15 00:48:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T05:38:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:48:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN37263;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KPHXairport>;
+  atm:callSign "UAL1481";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1481-201407150048;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1481-201407150048;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1691-201407150007 a atm:Flight;
+  rdfs:label "Flight UAL1691 on 2014-07-15 00:07:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:35:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:07:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN37274;
+  atm:aircraftTypeFlown eqp:B738AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "UAL1691";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KPBIairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1691-201407150007;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1691-201407150007;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL1714-201407150033 a atm:Flight;
+  rdfs:label "Flight UAL1714 on 2014-07-15 00:33:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:07:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:33:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN68821;
+  atm:aircraftTypeFlown eqp:B739AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "UAL1714";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KFLLairport>;
+  atm:hasActualRoute atm:ActualRouteUAL1714-201407150033;
+  atm:hasPlannedRoute atm:PlannedRouteUAL1714-201407150033;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL451-201407150009 a atm:Flight;
+  rdfs:label "Flight UAL451 on 2014-07-15 00:09:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T04:43:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:09:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN849UA;
+  atm:aircraftTypeFlown eqp:A319AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "UAL451";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSFOairport>;
+  atm:hasActualRoute atm:ActualRouteUAL451-201407150009;
+  atm:hasPlannedRoute atm:PlannedRouteUAL451-201407150009;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL526-201407152356 a atm:Flight;
+  rdfs:label "Flight UAL526 on 2014-07-15 23:56:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140716>;
+  atm:actualArrivalTime "2014-07-16T04:48:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T23:56:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN843UA;
+  atm:aircraftTypeFlown eqp:A319AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "UAL526";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLAXairport>;
+  atm:hasActualRoute atm:ActualRouteUAL526-201407152356;
+  atm:hasPlannedRoute atm:PlannedRouteUAL526-201407152356;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL535-201407150019 a atm:Flight;
+  rdfs:label "Flight UAL535 on 2014-07-15 00:19:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T05:42:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:19:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN589UA;
+  atm:aircraftTypeFlown eqp:B752AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLAXairport>;
+  atm:callSign "UAL535";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteUAL535-201407150019;
+  atm:hasPlannedRoute atm:PlannedRouteUAL535-201407150019;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:UAL691-201407150022 a atm:Flight;
+  rdfs:label "Flight UAL691 on 2014-07-15 00:22:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T02:19:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:22:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN832UA;
+  atm:aircraftTypeFlown eqp:A319AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport>;
+  atm:callSign "UAL691";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:hasActualRoute atm:ActualRouteUAL691-201407150022;
+  atm:hasPlannedRoute atm:PlannedRouteUAL691-201407150022;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#UALairline> .
+
+atm:VIR46C-201407150050 a atm:Flight;
+  rdfs:label "Flight VIR46C on 2014-07-15 00:50:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T03:07:56"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:50:00"^^xsd:dateTime;
+  atm:aircraftTypeFlown eqp:B744AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#EGLLairport>;
+  atm:callSign "VIR46C";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport>;
+  atm:hasActualRoute atm:ActualRouteVIR46C-201407150050;
+  atm:hasPlannedRoute atm:PlannedRouteVIR46C-201407150050;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#VIRairline> .
+
+atm:VRD1178-201407150021 a atm:Flight;
+  rdfs:label "Flight VRD1178 on 2014-07-15 00:21:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T05:29:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:21:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN624VA;
+  atm:aircraftTypeFlown eqp:A320AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "VRD1178";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KSFOairport>;
+  atm:hasActualRoute atm:ActualRouteVRD1178-201407150021;
+  atm:hasPlannedRoute atm:PlannedRouteVRD1178-201407150021;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#VRDairline> .
+
+atm:VRD166-201407150003 a atm:Flight;
+  rdfs:label "Flight VRD166 on 2014-07-15 00:03:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T04:54:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:03:00"^^xsd:dateTime;
+  atm:aircraftFlown eqp:AircraftN639VA;
+  atm:aircraftTypeFlown eqp:A320AircraftType;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport>;
+  atm:callSign "VRD166";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLAXairport>;
+  atm:hasActualRoute atm:ActualRouteVRD166-201407150003;
+  atm:hasPlannedRoute atm:PlannedRouteVRD166-201407150003;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#VRDairline> .
+
+atm:WJA1212-201407150006 a atm:Flight;
+  rdfs:label "Flight WJA1212 on 2014-07-15 00:06:00";
+  atm:userCategory "COMMERCIAL";
+  atm:actualArrivalDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualArrivalTime "2014-07-15T01:09:00"^^xsd:dateTime;
+  atm:actualDepartureDay <https://data.nasa.gov/ontologies/atmonto/NAS#Day20140715>;
+  atm:actualDepartureTime "2014-07-15T00:06:00"^^xsd:dateTime;
+  atm:arrivalAirport <https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport>;
+  atm:callSign "WJA1212";
+  atm:departureAirport <https://data.nasa.gov/ontologies/atmonto/NAS#CYYZairport>;
+  atm:hasActualRoute atm:ActualRouteWJA1212-201407150006;
+  atm:hasPlannedRoute atm:PlannedRouteWJA1212-201407150006;
+  atm:operatedBy <https://data.nasa.gov/ontologies/atmonto/NAS#WJAairline> .

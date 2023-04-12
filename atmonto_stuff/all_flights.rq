@@ -1,0 +1,9 @@
+PREFIX eqp: <https://data.nasa.gov/ontologies/atmonto/equipment#>
+PREFIX atm: <https://data.nasa.gov/ontologies/atmonto/ATM#>
+construct {
+    ?s ?p ?o .
+}
+where{ 
+	?s a atm:Flight ;
+       ?p ?o .
+}
