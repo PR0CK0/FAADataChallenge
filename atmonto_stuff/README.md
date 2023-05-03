@@ -31,6 +31,7 @@ The structure ATMOnto uses is like this:
 
 * Each flight is an atm:Flight
 * Every atm:Flight has attributes like dates, the aircraft used, the airports, planned routes and actual routes
+* Every atm:ActualRoute has dozens upon dozens of "trackpoints" (the same as waypoints)
 
 See the next three images to understand the namespaces and terms to use for Flights, Actual Routes and Planned Routes (respectively):
 
